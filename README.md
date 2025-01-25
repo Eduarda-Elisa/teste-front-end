@@ -1,21 +1,21 @@
 ## Instruções para rodar o projeto
 
-1. Clone o repositório para sua máquina local:
+1. Clone o repositório para sua máquina local (Terminal):
    ```bash
    git clone https://github.com/Eduarda-Elisa/teste-front-end.git
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto (Terminal):
    ```bash
    cd <diretório-do-projeto>
    ```
 
-3. Instale as dependências do projeto:
+3. Instale as dependências do projeto (Terminal):
    ```bash
    npm install -f
    ```
 
-4. Inicie o servidor de desenvolvimento:
+4. Inicie o servidor de desenvolvimento (Terminal):
    ```bash
    npm run dev
    ```
