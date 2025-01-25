@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // Define o alvo da compilação (versão do JavaScript)
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ], // Definição de bibliotecas para o TypeScript
+    "allowJs": true, // Permite usar arquivos JavaScript no projeto
+    "skipLibCheck": true, // Ignora verificações em bibliotecas
+    "esModuleInterop": true, // Permite a interoperabilidade entre módulos CommonJS e ESModules
+    "allowSyntheticDefaultImports": true, // Permite importações de módulos sem a necessidade de usar 'default'
+    "strict": true, // Ativa todas as verificações de tipo estritas
+    "forceConsistentCasingInFileNames": true, // Garante consistência no uso de maiúsculas/minúsculas em nomes de arquivos
+    "module": "ESNext", // Usa a última versão de módulos ES
+    "moduleResolution": "Node", // Utiliza resolução de módulos no estilo Node.js
+    "resolveJsonModule": true, // Permite importar arquivos JSON
+    "isolatedModules": true, // Impede a criação de arquivos de saída com múltiplos módulos
+    "noEmit": true, // Não emite arquivos de saída, já que a saída será feita pelo Babel
+    "jsx": "preserve" // Define a transformação JSX para React (com suporte para React 17+)
+    ,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "src",
+    ".next/types/**/*.ts"
+  ], // Diretório de código fonte do projeto
+  "exclude": [
+    "node_modules"
+  ] // Exclui o diretório node_modules da compilação
+}

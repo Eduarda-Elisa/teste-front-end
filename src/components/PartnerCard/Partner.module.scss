@@ -1,0 +1,52 @@
+.container{
+    width: 634px;
+    height: 350px;
+    border-radius: 20px;
+    background-image: url('/assets/images/newslatter.png');
+    overflow: hidden;
+    
+    div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        padding-left: 45px;
+        padding-bottom: 45px;
+        background: rgb(0,0,0);
+        background: linear-gradient(340deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+
+        h1{
+            font-weight: 700;
+            font-size: 40px;
+            color: white;
+            margin: 0;
+        }
+    
+        p{
+            font-weight: 400px;
+            font-size: 16px;
+            color: white;
+            margin-bottom: 20px;
+        }
+    
+        button{
+            width: 150px;
+            height: 48px;
+            border-radius: 6px;
+            background-color: #F7CA11;
+            font-weight: 700;
+            font-size: 16px;
+            color: #271C47;
+            transition: all ease 0.1s;
+    
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+
+}
+        
+

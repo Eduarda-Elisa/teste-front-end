@@ -1,3 +1,38 @@
+## Instruções para rodar o projeto
+
+1. Clone o repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/Eduarda-Elisa/teste-front-end.git
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd <diretório-do-projeto>
+   ```
+
+3. Instale as dependências do projeto:
+   ```bash
+   npm install -f
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+5. Abra a URL no navegador:
+   ```
+   http://localhost:3000
+   ```
+
+## Contato
+
+- **Nome**: Eduarda Elisa da Silva Oliveira
+- **Email**: eduardaelisadasilva@gmail.com
+- **Telefone**: (11) 99565-2537 (WhatsApp)
+
+--------------------------------------
+
 # Teste Econverse: Vaga Desenvolvedor Front-End
 
 ### Vem ser #Econverse!

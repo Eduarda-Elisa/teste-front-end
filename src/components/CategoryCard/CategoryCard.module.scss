@@ -1,0 +1,63 @@
+.category{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:  80px;
+    
+    .container{
+        width: 1160px;
+        height: 171px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 42px;
+
+        .technology, .supermarket, .drinks, .tool,
+         .health, .sports, .fashion  {
+            width: 128px;
+            height: 171px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            transition: all ease 0.1s;
+
+            &:hover{
+                transform: scale(1.05);
+                button{
+                    box-shadow: 0 4px 11px rgba(0,0,0,0.4);
+                }
+            }
+            
+
+            button{
+                width: 128px;
+                height: 128px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #F4F4F4;
+                box-shadow: 0 4px 11px rgba(0,0,0,0.2);
+            }
+            img{
+                width: 61px;
+                height: 61px;
+                
+            }
+            p{
+                font-weight: 500;
+                font-size: 14px;
+                color: #4E4E4E;
+            }
+         }
+
+         .technology{
+            p{
+                color: #3019B2;
+            }
+         }
+    }
+}
